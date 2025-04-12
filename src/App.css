@@ -72,3 +72,36 @@ div.div-title{
   margin-top: 15px;
   max-width: 600px;
 }
+
+.main-button{
+  background-color: rgba(255, 255, 255, 0.82);
+  outline: none;
+  border: none;
+  padding: 0.7rem 1rem;
+
+
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-right: 15px;
+  box-shadow: 0;
+  transition: .2s ease-in-out;
+}
+
+.main-button:hover{
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.772);
+  background-color: rgba(255, 255, 255, 0.622);
+}
+
+svg{
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  vertical-align: -0.4em;
+}
+
+.btn-assistir{
+  padding-top: 2rem;
+}
+

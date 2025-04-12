@@ -1,7 +1,7 @@
 function Caroussel(){
     return (
         <>
-            <div className="">
+            <div clas>
 
             </div>
         </>
