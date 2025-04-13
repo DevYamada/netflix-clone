@@ -44,11 +44,16 @@ function Caroussel() {
   };
   return (
     <>
-      <div className="container-movies row">
-        {movies.map((movie) => (
-          <Movies movie={movie} key={movie.id} />
-        ))}
-      </div>
+      {loading ? (
+        <div className="loading">Loading...</div>
+      ) : (
+        <div className="container-movies row">
+          {movies.map((movie) => (
+            <Movies movie={movie} key={movie.id} />
+          ))}
+          )
+        </div>
+      )}
     </>
   );
 }
