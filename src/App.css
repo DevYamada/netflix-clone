@@ -5,6 +5,15 @@ body {
   background-color: rgb(23, 23, 23);
 }
 
+.hidden{
+  transition: 0.1s !important;
+  background-color: transparent  !important;
+  color: transparent  !important;
+  z-index: 2  !important;
+  height: 0;
+  text-shadow: none !important;
+}
+
 nav.navbar {
   padding: 1rem;
   display: flex;
@@ -118,7 +127,7 @@ svg {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .container-movie:hover{
@@ -138,4 +147,19 @@ h5 svg {
   height: 20px;
 
   vertical-align: -0.1em;
+}
+
+.overview {
+  transition: 0.2s ease-out;
+  height: 450px;
+  font-size: 1.17rem;
+  background-color: rgba(0, 0, 0, 0.286);
+  margin-top: 20px;
+  font-weight: 400;
+  color: white;
+  text-shadow: 
+  -1px -1px 0 #00000048,  
+   1px -1px 0 #00000033,
+  -1px  1px 0 #00000041,
+   1px  1px 0 #00000032; 
 }
